@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">CoffeeSQLite</string>
+    <string name="app_name">Starbuzz</string>
+    <string name="starbuzz_logo">El logo</string>
+
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Foods</item>
+        <item>Stores</item>
+    </string-array>
+
+    <string name="message_error_database">The database was no found</string>
+
+    <string name="latte_name">Cappuccino</string>
+    <string name="cappuccino_name">Latte</string>
+    <string name="filter_name">Filter</string>
+
+    <string name="latte_description">Espresso and hot milk</string>
+    <string name="cappuccino_description">Espresso, hot milk and foam</string>
+    <string name="filter_description">Our best ground coffee</string>
 </resources>

@@ -8,19 +8,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.developer.fabian.coffeesqlite.ui.MainActivity">
+    tools:context="com.developer.fabian.coffeesqlite.ui.DetailCategoryActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:contentDescription="@string/starbuzz_logo"
-        android:src="@drawable/starbuzz_logo" />
+        android:id="@+id/image"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal" />
 
-    <ListView
-        android:id="@+id/list_options"
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/options" />
-
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

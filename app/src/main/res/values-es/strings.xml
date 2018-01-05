@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Starbuzz</string>
+    <string name="starbuzz_logo">Starbuzz logo</string>
+
+    <string-array name="options">
+        <item>Bebidas</item>
+        <item>Comida</item>
+        <item>Tiendas</item>
+    </string-array>
+
+    <string name="message_error_database">No se encontró la base de datos</string>
+
+    <string name="latte_name">Latte</string>
+    <string name="cappuccino_name">Cappuccino</string>
+    <string name="filter_name">Filtrado</string>
+
+    <string name="latte_description">Espresso y leche caliente</string>
+    <string name="cappuccino_description">Espresso, leche caliente y espuma</string>
+    <string name="filter_description">Nuestro mejor café molido</string>
+</resources>
